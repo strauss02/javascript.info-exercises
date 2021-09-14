@@ -1,0 +1,29 @@
+<html>
+  <body>
+    <div>Users:</div>
+    <ul>
+      <li>John</li>
+      <li>Pete</li>
+    </ul>
+  </body>
+</html>
+
+<!-- 
+For each of the following, give at least one way of how to access them:
+
+  The <div> DOM node?
+  The <ul> DOM node?
+    The second <li> (with Pete)?
+
+    -->
+
+<script>
+  
+  const divEl = document.body.children[0];
+  console.log(divEl);
+
+  const ulEl = document.body.firstElementChild.nextElementSibling
+  
+  const secondLiEL = document.body.lastElementChild.firstChild
+
+</script>
